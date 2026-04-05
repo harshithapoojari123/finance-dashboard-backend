@@ -1,0 +1,28 @@
+{
+  "name": "finance-dashboard-backend",
+  "version": "1.0.0",
+  "description": "Role-based finance dashboard backend built with Node.js, Express, and MongoDB.",
+  "main": "src/server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "node --test tests/api.test.js"
+  },
+  "keywords": [
+    "finance",
+    "dashboard",
+    "express",
+    "mongodb"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
